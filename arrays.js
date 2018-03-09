@@ -23,7 +23,11 @@ function removeElementFromBeginningOfArray(array) {
   return array;
 }
 
-destructivelyRemoveElementFromEndOfArray(array) {
+function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
+}
+
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, iceCreams.length - 1);
 }
